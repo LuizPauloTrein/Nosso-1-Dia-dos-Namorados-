@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+
+  .hero,
+  .page,
+  .reverse {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .side-photos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  img {
+    width: 200px;
+    height: 240px;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+}
